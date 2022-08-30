@@ -9,7 +9,6 @@ from django.template import loader
 from django.urls import reverse
 from .models import Members
 
-
 # R = READ
 def index(request):
     mymembers = Members.objects.all().values()
